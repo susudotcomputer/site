@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  susu:
+    build: ./
+    ports:
+      - 8000:8000
+    volumes:
+      - ./src:/usr/src/app/src/
