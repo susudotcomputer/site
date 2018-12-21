@@ -29,7 +29,7 @@ const RenderedNeon = ({ colorMap }) => {
 
 const Neon = ({ children, colorMap }) => {
   const intensity = 2;
-  const blur = 40;
+  const blur = 20;
   return (
     <svg className="w100p" viewBox="-100 -100 1000 1000">
       <defs>

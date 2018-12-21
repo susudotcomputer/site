@@ -6,7 +6,7 @@ import Tabs from '../components/Tabs';
 import Branding from './Branding';
 import Poster from './Poster';
 import SnacksGrid from './SnacksGrid';
-import Snacks from './Snacks';
+import Snacks from './Snacks/';
 import './styles.css';
 
 const Tab = ({ children }) => {
@@ -19,7 +19,7 @@ const Snackalong = () => {
       <Grid className="h100vh relative">
         <div className="w101p absolute t0 h50vh fade-white-transparent" />
         <ArchiveCard
-          project="Snackalong:Ocean's Eleven"
+          project="Snackalong: Ocean's Eleven"
           location="Brooklyn, NY"
           medium="Event"
           date="2018&#8209;06&#8209;30"

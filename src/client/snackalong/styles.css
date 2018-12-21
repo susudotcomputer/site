@@ -20,8 +20,18 @@
 }
 
 .archive-card {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10rem;
+  grid-column-gap: 5%;
   box-shadow: 0 60px 70px -70px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (min-width: 800px) {
+  .archive-card {
+    grid-template-columns: minmax(4rem, 8rem) 1fr;
+    grid-template-rows: auto auto;
+  }
 }
 
 .archive-card__logo {
@@ -46,9 +56,7 @@
 }
 
 .archive-card__tactics-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
-  justify-content: space-between;
+  columns: 9em;
 }
 
 .snack {

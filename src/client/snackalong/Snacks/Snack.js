@@ -68,7 +68,7 @@ const Snack = ({
   vesselList
 }) => {
   return (
-    <div className="snack col-10 relative">
+    <div className="snack col-10 relative mb20">
       <Heading
         style="H100"
         className="archive-beige snack__title border-bottom border-archive-brown-400 border-medium"

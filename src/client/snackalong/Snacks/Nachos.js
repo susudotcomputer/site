@@ -1,7 +1,7 @@
 import React from 'react';
 import Snack from './Snack';
-import { NachosSVG, nachosColorMap } from './svg/NachosSVG';
-import nachosImg from './assets/01-nachos.jpg';
+import { SVG, colorMap } from './svg/NachosSVG';
+import image from './assets/01-nachos.jpg';
 
 const Nachos = () => (
   <Snack
@@ -13,9 +13,9 @@ const Nachos = () => (
     vesselList={['Red paper tray']}
     clip="https://s3.amazonaws.com/susuassets/01-nachos.mp4"
     clipPosition={'left'}
-    image={nachosImg}
-    svgColorMap={nachosColorMap}
-    svgGroups={NachosSVG}
+    image={image}
+    svgColorMap={colorMap}
+    svgGroups={SVG}
   />
 );
 

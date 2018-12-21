@@ -1,31 +1,31 @@
-import React from "react";
-import { Heading, Span } from "../Text";
-import styles from "../../utils/css";
-import { camelToSentence } from "../../utils/text";
+import React from 'react';
+import { Heading, Span } from '../Text';
+import styles from '../../utils/css';
+import { camelToSentence } from '../../utils/text';
 
 const TACTICS = [
-  "visualDesign",
-  "webDevelopment",
-  "cooking",
-  "branding",
-  "photography",
-  "hosting",
-  "copyWriting",
-  "video",
-  "illustration",
-  "carpentry",
-  "print",
-  "music"
+  'visualDesign',
+  'webDevelopment',
+  'cooking',
+  'branding',
+  'photography',
+  'hosting',
+  'copyWriting',
+  'video',
+  'illustration',
+  'carpentry',
+  'print',
+  'music'
 ];
 
 const dotPositions = [
-  styles("t1px l2px"),
-  styles("b-1px r2px"),
-  styles("b1px l1px"),
-  styles("b2px l2px"),
-  styles("t1px r0px"),
-  styles("t1px l0px"),
-  styles("t0px l2px")
+  styles('t1px l2px'),
+  styles('b-1px r2px'),
+  styles('b1px l1px'),
+  styles('b2px l2px'),
+  styles('t1px r0px'),
+  styles('t1px l0px'),
+  styles('t0px l2px')
 ];
 
 const randomNumber = num => {
@@ -34,13 +34,13 @@ const randomNumber = num => {
 
 const TacticStamp = ({ stamped }) => {
   const wrapperClasses = styles(
-    "circle w16px h16px border border-black_50 inline-flex mr2 relative"
+    'circle w16px h16px border border-black_50 inline-flex mr2 relative'
   );
   const direction = dotPositions[randomNumber(dotPositions.length)];
   const dotClasses = styles(
     direction,
-    "relative w12px h12px circle m-auto",
-    stamped ? "bg-archive-brown-400" : ""
+    'relative w12px h12px circle m-auto',
+    stamped ? 'bg-archive-brown-400' : ''
   );
   return (
     <span className={wrapperClasses}>
@@ -53,7 +53,7 @@ const TacticItem = ({ stamped, title }) => {
   return (
     <li>
       <TacticStamp stamped={stamped} />
-      <Span style="H300">{camelToSentence(title)}</Span>
+      <Span style="chromesparks">{camelToSentence(title)}</Span>
     </li>
   );
 };
