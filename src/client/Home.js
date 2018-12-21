@@ -26,10 +26,6 @@ const Home = () => {
           backgroundImage: `url(${shadowBoys})`
         }}
       />
-      <div>
-        <Link to="/snackalong">Snackalong</Link>
-        <Link to="/sundays">Sundays</Link>
-      </div>
     </div>
   );
 };
