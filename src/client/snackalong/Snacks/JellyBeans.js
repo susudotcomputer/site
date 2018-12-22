@@ -1,9 +1,9 @@
 import React from 'react';
 import Snack from './Snack';
-import { SVG, colorMap } from './svg/JellyBeansSVG';
+import { SVG, colorMap } from './svg/JellybeansSVG';
 import image from './assets/18-jellybeans.jpg';
 
-const JellyBeans = () => (
+const Jellybeans = () => (
   <Snack
     title="Jelly beans"
     index="9"
@@ -19,4 +19,4 @@ const JellyBeans = () => (
   />
 );
 
-export default JellyBeans;
+export default Jellybeans;

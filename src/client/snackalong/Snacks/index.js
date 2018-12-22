@@ -16,7 +16,7 @@ import GingerAle from './GingerAle';
 import Shrimp from './Shrimp';
 import RedBull from './RedBull';
 import IceCream from './IceCream';
-import JellyBeans from './JellyBeans';
+import JellyBeans from './Jellybeans';
 import Burger from './Burger';
 
 const Snacks = () => {
