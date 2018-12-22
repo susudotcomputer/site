@@ -7,6 +7,17 @@ import NicoiseSalad from './NicoiseSalad';
 import Espresso from './Espresso';
 import Cigarette from './Cigarette';
 import BigSoda from './BigSoda';
+import CottonCandy from './CottonCandy';
+import Sorbet from './Sorbet';
+import Martini from './Martini';
+import MysterySalad from './MysterySalad';
+import Lollipop from './Lollipop';
+import GingerAle from './GingerAle';
+import Shrimp from './Shrimp';
+import RedBull from './RedBull';
+import IceCream from './IceCream';
+import JellyBeans from './JellyBeans';
+import Burger from './Burger';
 
 const Snacks = () => {
   return (
@@ -19,6 +30,17 @@ const Snacks = () => {
         <Espresso />
         <Cigarette />
         <BigSoda />
+        <CottonCandy />
+        <Sorbet />
+        <Martini />
+        <MysterySalad />
+        <Lollipop />
+        <GingerAle />
+        <Shrimp />
+        <RedBull />
+        <IceCream />
+        <JellyBeans />
+        <Burger />
       </Grid>
     </div>
   );
